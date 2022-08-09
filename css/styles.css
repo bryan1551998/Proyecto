@@ -1,0 +1,27 @@
+.menuPrincipal {
+    background: linear-gradient(80.41deg,
+            rgba(176, 56, 232, 0.888) -23.1%,
+            rgba(77, 91, 239, 0.84) 43.41%,
+            rgba(237, 110, 137, 0.84) 111.68%);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.menuPrincipal:hover,
+.nav-link:hover {
+    color: rgb(220, 217, 217) !important;
+}
+
+#tituloPagina {
+    font-size: 25px;
+    padding-left: 50px;
+    color: white;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.901);
+}
