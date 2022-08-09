@@ -1,0 +1,113 @@
+<!-- Heredo de la plantilla/welcome -->
+
+
+<!-- Inicio de la seccion content -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Uiproject</title>
+
+    <!--Animate  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <!-- Livewire Styles-->
+    <!-- Livewire Styles -->
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light menuPrincipal">
+        <h1 class="navbar-brand pt-4" id="tituloPagina">Ui Proyect</h1>
+    </nav>
+
+    <div class="sticky-top">
+        <ul class="nav justify-content-center  menuPrincipal pb-4 " id="listadoPaginas">
+
+
+
+            <li class="nav-item">
+                <a class="nav-link active" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#ofrecemos">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/plantillas">PLANTILLAS</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/register">REGISTRARSE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">INICIAR SESION</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Dinamic Content -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-4 mt-5 mb-5">
+                <h4 class="center">Iniciar sesión</h4>
+                <form method="POST" action="/login">
+
+                    <!-- Mensaje que paso por el redirect -->
+
+                    <!-- Token de Larabel -->
+                    <input type="hidden" name="_token" value="3Yd9YAFNz92fOqtNHFaq6A1kzeGAGF6JApBKbnnx"> <label
+                        class="form-label" for="name">Usuario</label>
+                    <input autofocus class="form-control" type="text" id="name" name="name" required>
+                    <!-- Errores y validación -->
+                    <p class="error">
+                    </p>
+                    <label class="form-label" for="password">Contraseña</label>
+                    <input class="form-control" type="password" id="password" name="password" required>
+                    <!-- Errores y validación -->
+                    <p class="error">
+                    </p>
+
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Recuerda mi sesión</label>
+                    <br>
+                    <input class="btn btn-primary btn-block mt-2 mb-2" type="submit" value="Enviar">
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Foor content -->
+    <div class="fixed-bottom" id="footer">
+        <p style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022 @Copyright
+        </p>
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>
