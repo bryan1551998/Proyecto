@@ -10,16 +10,20 @@ if (xmlhttp.status == 200) {
 
 const obj = JSON.parse(file); // Parseamos el modelo Json a un Objeto manipulable
 
-// HEADER
+// HEADER - GLOBAL
 document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
+document.getElementById('register').innerHTML = obj.header.register;
+document.getElementById('login').innerHTML = obj.header.login;
+document.getElementById('logoff').innerHTML = obj.header.logoff;
+
+// FOOTER - GLOBAL
 document.getElementById('home').innerHTML = obj.header.home;
 
 // ACORDEON
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
+document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
+document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
+document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
+document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
 
 // CARRUSEL
 document.getElementById('home').innerHTML = obj.header.home;
@@ -32,7 +36,4 @@ document.getElementById('home').innerHTML = obj.header.home;
 
 document.getElementById('home').innerHTML = obj.header.home;
 document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
-
-// FOOTER
 document.getElementById('home').innerHTML = obj.header.home;
