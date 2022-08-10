@@ -64,7 +64,7 @@ function validarLogin() {
         $('#email').val() == localStorage.getItem("email")) {
         alert('Credenciales correctas')
 
-        location.href = './modulos.html'
+        location.href = './indice.html'
 
 
     } else {
