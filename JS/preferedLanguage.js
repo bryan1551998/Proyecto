@@ -36,3 +36,15 @@ document.getElementById('home').innerHTML = obj.header.home;
 
 // FOOTER
 document.getElementById('home').innerHTML = obj.header.home;
+
+
+// REGISTER PAGE
+document.getElementById('title').innerHTML = obj.registerPage.title;
+document.getElementById('name').innerHTML = obj.registerPage.name;
+document.getElementById('apellido').innerHTML = obj.registerPage.surname;
+document.getElementById('pass').innerHTML = obj.registerPage.pass;
+document.getElementById('mail').innerHTML = obj.registerPage.email;
+document.getElementById('birth').innerHTML = obj.registerPage.birth;
+document.getElementById('idNumber').innerHTML = obj.registerPage.dni;
+document.getElementById('tel').innerHTML = obj.registerPage.tel;
+document.getElementById('botonSubmit').innerHTML = obj.registerPage.botonSubmit;

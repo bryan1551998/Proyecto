@@ -42,7 +42,7 @@ function validarCampos() {
     }
     else {
         alert('valid')
-        register()
+        obtenerDatos()
         return true
 
     }
@@ -74,8 +74,7 @@ function register() {
 //Llamar a la funcion register del archivo register.js
 function obtenerDatos() {
 
-   
-        v = register()
+   v = register()
     
 
     //Guardar variables
