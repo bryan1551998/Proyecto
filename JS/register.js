@@ -42,7 +42,7 @@ function validarCampos() {
     }
     else {
         alert('valid')
-        obtenerDatos()
+        register()
         return true
 
     }
@@ -74,7 +74,8 @@ function register() {
 //Llamar a la funcion register del archivo register.js
 function obtenerDatos() {
 
-   v = register()
+   
+        v = register()
     
 
     //Guardar variables
@@ -87,7 +88,6 @@ function obtenerDatos() {
     telfCookie = v[6];
 
     crearSesion()
-
 }
 
 //Crear localStorange
@@ -134,4 +134,29 @@ function validarLogin() {
         alert('Error de sesion!!!')
     }
 
+}
+function validarCampos() {
+    var bool = true
+    if (regExpEmail.test($('#email').val()) == false) {
+        alert('no valid M')
+        bool = false
+    }
+    if (regExpDni.test($('#dni').val()) == false) {
+        alert('no valid D ')
+        bool = false
+    }
+    if (regExpTel.test($('#telf').val()) == false) {
+        alert('no valid N')
+        bool = false
+    }
+    if (!bool) {
+        cerrarSesion()
+        return false
+    }
+    else {
+        alert('valid')
+        obtenerDatos()
+        return true
+
+    }
 }
