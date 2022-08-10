@@ -25,3 +25,23 @@
 #footer {
     background-color: rgba(0, 0, 0, 0.901);
 }
+
+
+.btn-primary {
+
+    background-color: rgb(121, 156, 231);
+    border: 0;
+    transition: 0.6s;
+}
+
+.btn-primary:focus {
+    background-color: #7788e6;
+}
+
+.btn-primary:hover {
+    background-color: rgba(121, 156, 231, 0.887);
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.6s;
+
+}
