@@ -89,12 +89,12 @@
 
                     <div class="pt-1 pb-3">
                         <label for="telf" class="form-label">Teléfono</label>
-                        <input type="number" class="form-control" id="telf">
+                        <input type="text" class="form-control" id="telf">
                     </div>
 
                 </form>
 
-                <button onclick="obtenerDatos()" class="btn btn-primary d-block m-auto">Enviar datos</button>
+                <button onclick="return validarCampos(), obtenerDatos()" class="btn btn-primary d-block m-auto">Enviar datos</button>
 
             </div>
         </div>

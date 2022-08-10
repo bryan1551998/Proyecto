@@ -1,10 +1,10 @@
-var userName;
-var surname;
-var password;
-var email;
-var fechaNacimiento;
-var dni;
-var telf;
+var userNameCookie;
+var surnameCookie;
+var passwordCookie;
+var emailCookie;
+var fechaNacimientoCookie;
+var dniCookie;
+var telfCookie;
 
 
 //Llamar a la funcion register del archivo register.js
@@ -15,13 +15,13 @@ function obtenerDatos() {
     );
 
     //Guardar variables
-    userName = v[0];
-    surname = v[1]
-    password = v[2];
-    email = v[3];
-    fechaNacimiento = v[4];
-    dni = v[5];
-    telf = v[6];
+    userNameCookie = v[0];
+    surnameCookie = v[1]
+    passwordCookie = v[2];
+    emailCookie = v[3];
+    fechaNacimientoCookie = v[4];
+    dniCookie = v[5];
+    telfCookie = v[6];
 
     crearSesion()
 
@@ -93,7 +93,7 @@ function alertCookie() {
 
 
 
-/**/
+/*PRUEBAS*/
 function mostrar() {
     alert(localStorage.getItem("user"))
     alert(localStorage.getItem("surname"))
