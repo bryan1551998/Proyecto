@@ -38,11 +38,6 @@ document.getElementById('home').innerHTML = obj.header.home;
 document.getElementById('home').innerHTML = obj.header.home;
 document.getElementById('home').innerHTML = obj.header.home;
 
-
-// FOOTER
-document.getElementById('home').innerHTML = obj.header.home;
-
-
 // REGISTER PAGE
 document.getElementById('title').innerHTML = obj.registerPage.title;
 document.getElementById('name').innerHTML = obj.registerPage.name;
