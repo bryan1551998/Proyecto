@@ -9,7 +9,15 @@
 
   },
   "registerPage": {
-
+    "title": "Registrarse23423652",
+    "name": "Nombre",
+    "surname": "Apellidos",
+    "pass": "Password",
+    "email": "Email",
+    "birth": "Fecha de nacimiento",
+    "dni": "DNI",
+    "tel": "Teléfono",
+    "botonSubmit": "Enviar datos"
   },
   "loginPage": {
 
