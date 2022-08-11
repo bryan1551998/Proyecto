@@ -3,21 +3,6 @@ function cambiarNombre() {
 }
 
 
-
-document.cookie = "nombre=oeschger";
-document.cookie = "comida_preferida=tripa";
-function alertCookie() {
-    alert(document.cookie); // visualizar: nombre=oeschger;comida favorita=tripa
-
-}
-
-
-
-
-
-
-
-
 /*PRUEBAS*/
 function mostrar() {
     alert(localStorage.getItem("user"))

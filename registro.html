@@ -24,6 +24,9 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
+    <!-- Alerts -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 
 <body>
@@ -51,53 +54,59 @@
     <!-- Dinamic Content -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="   col-sm-4   mt-5 mb-5">
-                <h4 id="title" class="center">Registrarse</h4>
+            <div class="   col-7   mt-5 mb-5">
+                <h4 id="title" class="text-center pb-4">Registrarse</h4>
 
                 <form>
+                    <div class="row">
+                        <div class="col">
 
-                    <div class="pt-1 pb-3">
-                        <label id="name" for="userName" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="userName">
-                    </div>
 
-                    <div class="pt-1 pb-3">
-                        <label id="apellido" for="surname" class="form-label">Apellidos</label>
-                        <input type="text" class="form-control" id="surname">
-                    </div>
+                            <label id="name" for="userName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="userName">
+                            <br> <br>
 
-                    <div class="pt-1 pb-3">
-                        <label id="pass" for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password">
-                    </div>
+                            <label id="apellido" for="surname" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="surname">
+                            <br> <br>
 
-                    <div class="pt-1 pb-3">
-                        <label id="mail" for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
+                            <label id="pass" for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password">
+                            <span class="form-text" id="errorPassword"></span>
+                            <br> <br>
 
-                    <div class="pt-3 pb-3">
-                        <label id="birth" for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
-                        <input type="date" class="form-control" id="fechaNacimiento">
-                    </div>
+                            <label id="mail" for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                            <span class="form-text" id="errorEmail"></span>
+                            <br> <br>
+                        </div>
 
-                    <div class="pt-1 pb-3">
-                        <label id="idNumber" for="dni" class="form-label">DNI</label>
-                        <input type="text" class="form-control" id="dni">
-                    </div>
+                        <div class="   col">
 
-                    <div class="pt-1 pb-3">
-                        <label id="tel" for="telf" class="form-label">Teléfono</label>
-                        <input type="text" class="form-control" id="telf">
+                            <label id="birth" for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
+                            <input type="date" class="form-control" id="fechaNacimiento">
+                            <br> <br>
+
+                            <label id="idNumber" for="dni" class="form-label">DNI</label>
+                            <input type="text" class="form-control" id="dni">
+                            <span class="form-text" id="errorDNI"></span>
+                            <br> <br>
+
+                            <label id="tel" for="telf" class="form-label">Móvil</label>
+                            <input type="text" class="form-control" id="telf">
+                            <span class="form-text" id="errorTelf"></span>
+                            <br> <br>
+
+                        </div>
                     </div>
 
                 </form>
 
-                <button onclick="return validarCampos(), obtenerDatos()" class="btn btn-primary d-block m-auto">Enviar
+                <button onclick="programa()" class="btn btn-primary d-block m-auto">Enviar
                     datos</button>
-
             </div>
         </div>
+    </div>
     </div>
 
     <div class="p-4 m-4">
