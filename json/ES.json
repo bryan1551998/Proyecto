@@ -5,11 +5,10 @@
     "login": "Iniciar Sesión",
     "logoff": "Cerrar Sesión"
   },
-  "homePage": {
-
-  },
+  "footer": "Todos los derechos reservados 2022 @ Copyright",
+  "homePage": {},
   "registerPage": {
-    "title": "Registrarse23423652",
+    "title": "Cuenta nueva",
     "name": "Nombre",
     "surname": "Apellidos",
     "pass": "Password",
@@ -17,10 +16,13 @@
     "birth": "Fecha de nacimiento",
     "dni": "DNI",
     "tel": "Teléfono",
-    "botonSubmit": "Enviar datos"
+    "botonSubmit": "Registrarse"
   },
   "loginPage": {
-
+    "title": "Inicio de sesión",
+    "email": "Email",
+    "pass": "Contraseña",
+    "btnSubmit": "Iniciar sesión"
   },
   "indicePage": {
     "modulo1Title": "Módulo 1",

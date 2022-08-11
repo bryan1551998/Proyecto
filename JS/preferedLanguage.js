@@ -10,42 +10,60 @@ if (xmlhttp.status == 200) {
 
 const obj = JSON.parse(file); // Parseamos el modelo Json a un Objeto manipulable
 
+
+
 // HEADER - GLOBAL
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('register').innerHTML = obj.header.register;
-document.getElementById('login').innerHTML = obj.header.login;
-document.getElementById('logoff').innerHTML = obj.header.logoff;
+try {
+    document.getElementById('textoHome').innerHTML = obj.header.home;
+    document.getElementById('textoRegister').innerHTML = obj.header.register;
+    document.getElementById('textoLogin').innerHTML = obj.header.login;
+    //document.getElementById('textoLogoff').innerHTML = obj.header.logoff;
+} catch (error) { }
 
 // FOOTER - GLOBAL
-document.getElementById('home').innerHTML = obj.header.home;
+try {
+    document.getElementById('textoFooter').innerHTML = obj.footer;
+} catch (error) { }
 
-// ACORDEON
-document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
-document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
-document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
-document.getElementById('home').innerHTML = obj.indicePage.modulo1Title;
+/************************** INDICE PAGE **************************/
+try {
+    // ACORDEON
+    document.getElementById('textoMTitle1').innerHTML = obj.indicePage.modulo1Title;
+    document.getElementById('textoModulo1').innerHTML = obj.indicePage.modulo1Content;
+    document.getElementById('textoMTitle2').innerHTML = obj.indicePage.modulo2Title;
+    document.getElementById('textoModulo2').innerHTML = obj.indicePage.modulo2Content;
 
-// CARRUSEL
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
+    // CARRUSEL
+    document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
 
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
 
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
-document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
+    document.getElementById('home').innerHTML = obj.header.home;
+} catch (error) { }
 
-// REGISTER PAGE
-document.getElementById('title').innerHTML = obj.registerPage.title;
-document.getElementById('name').innerHTML = obj.registerPage.name;
-document.getElementById('apellido').innerHTML = obj.registerPage.surname;
-document.getElementById('pass').innerHTML = obj.registerPage.pass;
-document.getElementById('mail').innerHTML = obj.registerPage.email;
-document.getElementById('birth').innerHTML = obj.registerPage.birth;
-document.getElementById('idNumber').innerHTML = obj.registerPage.dni;
-document.getElementById('tel').innerHTML = obj.registerPage.tel;
-document.getElementById('botonSubmit').innerHTML = obj.registerPage.botonSubmit;
+/************************** REGISTER PAGE **************************/
+try {
+    document.getElementById('textoTitle').innerHTML = obj.registerPage.title;
+    document.getElementById('textoName').innerHTML = obj.registerPage.name;
+    document.getElementById('textoSurname').innerHTML = obj.registerPage.surname;
+    document.getElementById('textoPass').innerHTML = obj.registerPage.pass;
+    document.getElementById('textoEmail').innerHTML = obj.registerPage.email;
+    document.getElementById('textoBirth').innerHTML = obj.registerPage.birth;
+    document.getElementById('textoDni').innerHTML = obj.registerPage.dni;
+    document.getElementById('textoTel').innerHTML = obj.registerPage.tel;
+    document.getElementById('textoBtnSubmit').innerHTML = obj.registerPage.botonSubmit;
+} catch (error) { }
 
+/************************** LOGIN PAGE **************************/
+try {
+    document.getElementById('textoTitle').innerHTML = obj.loginPage.title;
+    document.getElementById('textoEmail').innerHTML = obj.loginPage.email;
+    document.getElementById('textoPass').innerHTML = obj.loginPage.pass;
+    document.getElementById('textoBtnSubmit').innerHTML = obj.loginPage.btnSubmit;
+} catch (error) { }

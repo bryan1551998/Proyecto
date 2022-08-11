@@ -40,11 +40,11 @@
         <ul class="nav justify-content-center  menuPrincipal pb-4 " id="listadoPaginas">
 
             <li class="nav-item">
-                <a class="nav-link" href="./registro.html">REGISTRARSE</a>
+                <a id="textoRegister" class="nav-link" href="./registro.html">REGISTRARSE</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="./login.html">INICIAR SESION</a>
+                <a id="textoLogin" class="nav-link" href="./login.html">INICIAR SESION</a>
             </li>
 
         </ul>
@@ -54,45 +54,44 @@
     <!-- Dinamic Content -->
     <div class="container">
         <div class="row justify-content-center">
-            <div class="   col-7   mt-5 mb-5">
-                <h4 id="title" class="text-center pb-4">Registrarse</h4>
+            <div class="col-7   mt-5 mb-5">
+                <h4 id="textoTitle" class="text-center pb-4">Registrarse</h4>
 
                 <form>
                     <div class="row">
                         <div class="col">
 
-
-                            <label id="name" for="userName" class="form-label">Nombre</label>
+                            <label id="textoName" for="userName" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="userName">
                             <br> <br>
 
-                            <label id="apellido" for="surname" class="form-label">Apellidos</label>
+                            <label id="textoSurname" for="surname" class="form-label">Apellidos</label>
                             <input type="text" class="form-control" id="surname">
                             <br> <br>
 
-                            <label id="pass" for="password" class="form-label">Password</label>
+                            <label id="textoPass" for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" id="password">
                             <span class="form-text" id="errorPassword"></span>
                             <br> <br>
 
-                            <label id="mail" for="email" class="form-label">Email</label>
+                            <label id="textoEmail" for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email">
                             <span class="form-text" id="errorEmail"></span>
                             <br> <br>
                         </div>
 
-                        <div class="   col">
+                        <div class="col">
 
-                            <label id="birth" for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
+                            <label id="textoBirth" for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
                             <input type="date" class="form-control" id="fechaNacimiento">
                             <br> <br>
 
-                            <label id="idNumber" for="dni" class="form-label">DNI</label>
+                            <label id="textoDni" for="dni" class="form-label">DNI</label>
                             <input type="text" class="form-control" id="dni">
                             <span class="form-text" id="errorDNI"></span>
                             <br> <br>
 
-                            <label id="tel" for="telf" class="form-label">Móvil</label>
+                            <label id="textoTel" for="telf" class="form-label">Móvil</label>
                             <input type="text" class="form-control" id="telf">
                             <span class="form-text" id="errorTelf"></span>
                             <br> <br>
@@ -102,7 +101,7 @@
 
                 </form>
 
-                <button onclick="programa()" class="btn btn-primary d-block m-auto">Enviar
+                <button id="textoBtnSubmit" onclick="programa()" class="btn btn-primary d-block m-auto">Enviar
                     datos</button>
             </div>
         </div>
@@ -118,7 +117,7 @@
 
     <!-- Foor content -->
     <div class=" fixed-bottom" id="footer">
-        <p style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022
+        <p id="textoFooter" style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022
             @Copyright
         </p>
     </div>

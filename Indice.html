@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -34,16 +34,10 @@
         <ul class="nav justify-content-center  menuPrincipal pb-4 " id="listadoPaginas">
 
             <li class="nav-item">
-                <a id="home" class="nav-link active" href="Indice.html">INICIO</a>
+                <a id="textoHome" class="nav-link active" href="Indice.html">INICIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="registro.html">REGISTRARSE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Login.html">INICIAR SESION</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="cerrarSesion()">Cerrar Sesión </a>
+                <a id="textoLogoff" class="nav-link" onclick="cerrarSesion()" href="#">CERRAR SESIÓN</a>
             </li>
 
         </ul>
@@ -111,14 +105,14 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            <button id="textoMTitle1" class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Módulo 1
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
-                            <div id="modulo1Content" class="accordion-body">
+                            <div id="textoModulo1" class="accordion-body">
                                 <strong>This is the first item's accordion body.</strong> It is shown by default,
                                 until the collapse plugin adds the appropriate classes that we use to style each
                                 element. These classes control the overall appearance, as well as the showing and
@@ -130,14 +124,14 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <button id="textoMTitle2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Módulo 2
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div id="textoModulo2" class="accordion-body">
                                 <strong>This is the second item's accordion body.</strong> It is hidden by default,
                                 until the collapse plugin adds the appropriate classes that we use to style each
                                 element. These classes control the overall appearance, as well as the showing and
@@ -156,7 +150,7 @@
 
     <!-- Foot content -->
     <div class="fixed-bottom" id="footer">
-        <p style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022 @Copyright
+        <p id="textoFooter" style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022 @ Copyright
         </p>
     </div>
 
@@ -167,7 +161,6 @@
         crossorigin="anonymous"></script>
 
     <script src="./js/preferedLanguage.js"></script>
-    <script src="./js/register.js"></script>
 </body>
 
 </html>
