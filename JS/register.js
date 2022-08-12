@@ -139,7 +139,7 @@ function validarLogin() {
 
         localStorage.setItem("cookieSesion", "true");
 
-        location.href = './Indice.html'
+        location.href = './indice.html'
 
     } else {
         swal("Error", "Credenciales incorretas", "error");
