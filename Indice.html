@@ -22,6 +22,8 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -34,12 +36,17 @@
         <ul class="nav justify-content-center  menuPrincipal pb-4 " id="listadoPaginas">
 
             <li class="nav-item">
+                <a id="userLogin" class="nav-link"></a>
+            </li>
+            <li class="nav-item">
                 <a id="textoLogoff" class="nav-link" onclick="cerrarSesion()">CERRAR SESIÓN</a>
             </li>
 
-            <img onclick="localStorage.setItem('idioma', 'es'); idioma();" src="./img/spain.png" height="40px" style="cursor: pointer;">
-            
-            <img onclick="localStorage.setItem('idioma', 'en'); idioma();" src="./img/united-kingdom.png" height="40px" style="cursor: pointer; margin-left: 10px;">
+            <img onclick="localStorage.setItem('idioma', 'es'); idioma();" src="./img/spain.png" height="40px"
+                style="cursor: pointer;" class="imgIdioma">
+
+            <img onclick="localStorage.setItem('idioma', 'en'); idioma();" src="./img/united-kingdom.png" height="40px"
+                style="cursor: pointer; margin-left: 10px;" class="imgIdioma">
 
         </ul>
 
@@ -76,8 +83,9 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button id="textoMTitle2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button id="textoMTitle2" class="accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
                                 Módulo 2
                             </button>
                         </h2>
@@ -102,7 +110,8 @@
 
     <!-- Foot content -->
     <div class="fixed-bottom" id="footer">
-        <p id="textoFooter" style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022 @ Copyright
+        <p id="textoFooter" style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados
+            2022 @ Copyright
         </p>
     </div>
 

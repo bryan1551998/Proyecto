@@ -59,7 +59,7 @@ button.swal-button.swal-button--confirm {
 }
 
 button.swal-button.swal-button--confirm:hover {
-    background-color: rgba(121, 156, 231, 0.887);
+    background-color: rgba(124, 149, 205, 0.887);
     padding-left: 30px;
     padding-right: 30px;
     transition: 0.6s;
@@ -94,4 +94,8 @@ input#fechaNacimiento {
 
     border-color: rgba(205, 204, 204, 0.794);
     transition: 0.6s;
+}
+
+.imgIdioma:hover {
+    filter: contrast(0.5);
 }
