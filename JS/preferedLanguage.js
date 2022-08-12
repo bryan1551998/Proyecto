@@ -37,6 +37,7 @@ function idioma() {
 
     /************************** INDICE PAGE **************************/
     try {
+        document.getElementById('textoUserLogin').innerHTML = obj.indicePage.user;
         document.getElementById('textoIndice').innerHTML = obj.indicePage.title;
         // ACORDEON
         document.getElementById('textoMTitle1').innerHTML = obj.indicePage.modulo1Title;

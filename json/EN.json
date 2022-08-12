@@ -24,6 +24,7 @@
     "btnSubmit": "Login"
   },
   "indicePage": {
+    "user": "Welcome, ",
     "title": "Index",
     "modulo1Title": "Module 1",
     "modulo1Content": "Ejercicio - Ejercicio Form Bootstrap.png\nLibro - Doc Bootstrap 4.pdf\nLibro - Tutorial bootstrap 4.pdf\nPresentación - PPT Bootstrap.pdf\nSolución - Solución Form bootstrap.zip",

@@ -1,11 +1,11 @@
 function cambiarNombre() {
-
+    //$('#userLogin').text('' + localStorage.getItem("user"))
 }
 
 
 function detectarCookieSesion() {
     if (localStorage.getItem("cookieSesion") === "true") {
-        $('#userLogin').text('Hola ' + localStorage.getItem("user"))
+        $('#userLogin').text('' + localStorage.getItem("user"))
     }
     else
         location.href = './registro.html'
@@ -25,6 +25,3 @@ function mostrar() {
 
 
 }
-
-
-
