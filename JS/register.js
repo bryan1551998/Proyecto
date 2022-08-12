@@ -60,15 +60,23 @@ function register() {
 function validarCampos() {
     var bool = true
 
-    $('#errorPassword').text('')
-    $('#errorEmail').text('');
-    $('#errorDNI').text('');
-    $('#errorTelf').text('');
+    borrarInput()
 
     if (regExpPassword.test($('#password').val()) == false) {
         $('#errorPassword').text('Mínimo 4 carateres (a-z,A-Z,0-9)');
         bool = false
     }
+
+    if (regExpPassword.test($('#passwordV2').val()) == false) {
+        $('#errorPasswordV2').text('Mínimo 4 carateres (a-z,A-Z,0-9)');
+        bool = false
+    }
+
+    if ($('#password').val() != $('#passwordV2').val()) {
+        $('#errorPasswordV2').text('La contraseña no coinciden');
+        bool = false
+    }
+
     if (regExpEmail.test($('#email').val()) == false) {
         $('#errorEmail').text('Email obligatorio ejm: user@user.com');
         bool = false
@@ -89,6 +97,8 @@ function validarCampos() {
         swal("Usuario Creado", "¡Ya puedes iniciar sesión!", "success");
         return true
     }
+
+
 }
 
 
@@ -149,6 +159,7 @@ function limpiarForm() {
     $('#userName').val("")
     $('#surname').val("")
     $('#password').val("")
+    $('#passwordV2').val("")
     $('#email').val("")
     $('#fechaNacimiento').val("")
     $('#dni').val("")
@@ -156,3 +167,13 @@ function limpiarForm() {
 
 }
 
+//Borra el contenido de los input
+function borrarInput() {
+
+    $('#errorPassword').text('')
+    $('#errorPasswordV2').text('')
+    $('#errorEmail').text('');
+    $('#errorDNI').text('');
+    $('#errorTelf').text('');
+
+}
