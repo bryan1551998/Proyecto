@@ -99,3 +99,7 @@ input#fechaNacimiento {
 .imgIdioma:hover {
     filter: contrast(0.5);
 }
+
+button#textoMTitle1 {
+    color: white;
+}
