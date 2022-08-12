@@ -63,12 +63,12 @@ function validarCampos() {
     borrarInput()
 
     if (regExpPassword.test($('#password').val()) == false) {
-        $('#errorPassword').text('Mínimo 4 carateres (a-z,A-Z,0-9)');
+        $('#errorPassword').text('Mínimo 6 carateres (a-z,A-Z,0-9)');
         bool = false
     }
 
     if (regExpPassword.test($('#passwordV2').val()) == false) {
-        $('#errorPasswordV2').text('Mínimo 4 carateres (a-z,A-Z,0-9)');
+        $('#errorPasswordV2').text('Mínimo 6 carateres (a-z,A-Z,0-9)');
         bool = false
     }
 
