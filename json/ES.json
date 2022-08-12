@@ -24,6 +24,7 @@
     "btnSubmit": "Iniciar sesión"
   },
   "indicePage": {
+    "user": "Bienvenido, ",
     "title": "Índice",
     "modulo1Title": "Módulo 1",
     "modulo1Content": "Ejercicio - Ejercicio Form Bootstrap.png\nLibro - Doc Bootstrap 4.pdf\nLibro - Tutorial bootstrap 4.pdf\nPresentación - PPT Bootstrap.pdf\nSolución - Solución Form bootstrap.zip",
