@@ -136,7 +136,7 @@
 
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <textarea class="form-control" rows="4"></textarea>
+                                        <textarea id="textArea" class="form-control" rows="4"></textarea>
                                     </div>
                                 </div>
 
@@ -153,14 +153,14 @@
 
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <select class="form-control">
+                                        <select id="selector" class="form-control">
                                             <option id="incident1">Incident</option>
                                             <option id="incident2">Incident 2</option>
                                         </select>
                                     </div>
 
                                     <div class="col-md-6">
-                                        <select class="form-control">
+                                        <select id="selector2" class="form-control">
                                             <option id="critic1">Minor</option>
                                             <option id="critic2">Major</option>
                                         </select>
@@ -172,7 +172,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button id="modalBtnClose" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button id="modalBtnSubmit" type="button" class="btn btn-primary">Submit</button>
+                                <button onclick="form1();" id="modalBtnSubmit" type="button" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </div>
@@ -195,6 +195,7 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
 
+    <script src="./js/modal.js"></script>
     <script src="./js/register.js"></script>
     <script src="./js/login.js"></script>
     <script src="./js/preferedLanguage.js"></script>
