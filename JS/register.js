@@ -17,7 +17,7 @@ var dniCookie;
 var telfCookie;
 
 //Variables regex
-var regExpPassword = /[aA-zZ|\d]{3,}/;
+var regExpPassword = /[aA-zZ|\d]{6,}/;
 var regExpTel = /^[6|7](\d){8}$/;
 var regExpDni = /^(\d){8}[aA-zZ]$/;
 var regExpEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
