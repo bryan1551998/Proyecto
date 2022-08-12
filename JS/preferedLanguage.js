@@ -23,6 +23,7 @@ function idioma() {
 
     // HEADER - GLOBAL
     try {
+        document.getElementById('tituloPagina').innerHTML = obj.header.title;
         document.getElementById('textoRegister').innerHTML = obj.header.register;
         document.getElementById('textoLogin').innerHTML = obj.header.login;
     } catch (error) { }
