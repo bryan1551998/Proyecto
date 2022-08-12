@@ -3,6 +3,15 @@ function cambiarNombre() {
 }
 
 
+function detectarCookieSesion() {
+    if (localStorage.getItem("cookieSesion") === "true") {
+        // mensaje hola usuario?
+    }
+    else
+        location.href = './registro.html'
+}
+
+
 /*PRUEBAS*/
 function mostrar() {
     alert(localStorage.getItem("user"))

@@ -127,6 +127,8 @@ function validarLogin() {
     if ($('#password').val() == localStorage.getItem("password") &&
         $('#email').val() == localStorage.getItem("email")) {
 
+        localStorage.setItem("cookieSesion", "true");
+
         location.href = './Indice.html'
 
     } else {
@@ -137,13 +139,8 @@ function validarLogin() {
 //Elimina localStorage
 function cerrarSesion() {
 
-    localStorage.removeItem("user")
-    localStorage.removeItem("surname")
-    localStorage.removeItem("password")
-    localStorage.removeItem("email")
-    localStorage.removeItem("fechaNacimiento")
-    localStorage.removeItem("dni")
-    localStorage.removeItem("telf")
+    localStorage.removeItem("cookieSesion");
+
     location.href = './registro.html'
 }
 
