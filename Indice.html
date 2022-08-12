@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Índice - Temario</title>
+    <title id="titleIPage">Índice</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -107,6 +107,76 @@
                     </div>
                 </div>
 
+                <br>
+
+                <!-- Botón que triggerea el modal -->
+                <div class="center text-center">
+                    <button id="textoBtnPeticion" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Formulario">
+                        Abrir Formulario
+                    </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Formulario" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="width: 145%;">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Create a new Task</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 id="modalTextoDescription">Description</h4>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" rows="4"></textarea>
+                                    </div>
+                                </div>
+
+                                <br>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 id="modalTextoType">Type</h4>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4 id="modalTextoCriticity">Criticity</h4>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <select class="form-control">
+                                            <option id="incident1">Incident</option>
+                                            <option id="incident2">Incident 2</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <select class="form-control">
+                                            <option id="critic1">Minor</option>
+                                            <option id="critic2">Major</option>
+                                        </select>
+                                    </div>
+
+                                    <br><br>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button id="modalBtnClose" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button id="modalBtnSubmit" type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>

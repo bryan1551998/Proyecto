@@ -8,6 +8,7 @@
   },
   "footer": "Todos los derechos reservados 2022 @ Copyright",
   "registerPage": {
+    "titlePage": "Registro",
     "title": "Cuenta nueva",
     "name": "Nombre",
     "surname": "Apellidos",
@@ -19,17 +20,30 @@
     "botonSubmit": "Registrarse"
   },
   "loginPage": {
+    "titlePage": "Iniciar sesión",
     "title": "Inicio de sesión",
     "email": "Email",
     "pass": "Contraseña",
     "btnSubmit": "Iniciar sesión"
   },
   "indicePage": {
+    "titlePage": "Índice - Temario",
     "user": "Bienvenido, ",
     "title": "Índice",
     "modulo1Title": "Módulo 1",
-    "modulo1Content": "Ejercicio - Ejercicio Form Bootstrap.png\nLibro - Doc Bootstrap 4.pdf\nLibro - Tutorial bootstrap 4.pdf\nPresentación - PPT Bootstrap.pdf\nSolución - Solución Form bootstrap.zip",
+    "modulo1Content": "El java es el mejor código existente ya que es muy similar a muchos otros y si aprendes directamente en java derivar a otros no es muy complicado. Java es un tipo de lenguage de programación orientado a objetos de forma que es muy bonito hacer objetos con el y son mucho más simples de usar.<br><br><a href='downloads/Drácula.txt' download='Acme Documentation (ver. 2.0.1).txt'>Acme Documentation (ver. 2.0.1)</a><br><a href='downloads/1-Ejercicios de JavaScript (1).pdf' download='ExJavaScript.pdf'>ExJavaScript.pdf</a><br><a href='downloads/Crear una web para almacenar los apuntes.pdf' download='apuntes.pdf'>apuntes.pdf</a><br><a href='downloads/Desarrollo WEB - HTML.pdf' download='Desarrollo.pdf'>Desarrollo.pdf</a>",
     "modulo2Title": "Módulo 2",
-    "modulo2Content": "Validación en JS: https://uniwebsidad.com/libros/javascript/capitulo-7/validacion <br>Herramientas para el desarrrolador: https://blog.makeitreal.camp/herramientas-de-desarrollador-o-developer-tools/ <br> https://www.emezeta.com/articulos/10-trucos-para-google-chrome-developer-tools"
+    "modulo2Content": "<a href='downloads/Ejercicios CS.pdf' download='ExCSS.pdf'>ExCSS.pdf</a><br><a href='downloads/Javascript.pdf' download='TutorialJavascript.pdf'>Tutorial Javascript.pdf</a><br><a href='downloads/manual Git.pdf' download='ManualDeGit.pdf'>Manual De Git.pdf</a><br><a href='downloads/UOC-Gestion-de-Proyectos-Informaticos-Metodos-Herramientas-y-Casos-nodrm.pdf' download='MuchasCosas.pdf'>Carpeta De Matematicas De 2 Teras</a>",
+    "modalBtn": "Abrir Petición",
+    "modalTitle": "Petición",
+    "modalDescription": "Descripción",
+    "modalType": "Tipo",
+    "modalType1": "PDF",
+    "modalType2": "Video .AVI",
+    "modalCriticity": "Criticidad",
+    "modalCriticity1": "Alta",
+    "modalCriticity2": "Baja",
+    "modalBtnClose": "Cerrar",
+    "modalBtnSubmit": "Enviar"
   }
 }
