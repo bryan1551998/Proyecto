@@ -6,12 +6,11 @@
     "logoff": "Cerrar Sesión"
   },
   "footer": "Todos los derechos reservados 2022 @ Copyright",
-  "homePage": {},
   "registerPage": {
     "title": "Cuenta nueva",
     "name": "Nombre",
     "surname": "Apellidos",
-    "pass": "Password",
+    "pass": "Contraseña",
     "email": "Email",
     "birth": "Fecha de nacimiento",
     "dni": "DNI",
@@ -25,26 +24,10 @@
     "btnSubmit": "Iniciar sesión"
   },
   "indicePage": {
+    "title": "Índice",
     "modulo1Title": "Módulo 1",
     "modulo1Content": "Ejercicio - Ejercicio Form Bootstrap.png\nLibro - Doc Bootstrap 4.pdf\nLibro - Tutorial bootstrap 4.pdf\nPresentación - PPT Bootstrap.pdf\nSolución - Solución Form bootstrap.zip",
     "modulo2Title": "Módulo 2",
-    "modulo2Content": "Validación en JS: https://uniwebsidad.com/libros/javascript/capitulo-7/validacion \nHerramientas para el desarrrolador: https://blog.makeitreal.camp/herramientas-de-desarrollador-o-developer-tools/ \n https://www.emezeta.com/articulos/10-trucos-para-google-chrome-developer-tools",
-    "slider": [
-      {
-        "img": "https://th.bing.com/th/id/OIP.1p0al6IoO9-oeLnLIzolVwHaC3?pid=ImgDet&rs=1",
-        "title": "Título 1",
-        "description": "asdkjg afasdja"
-      },
-      {
-        "img": "",
-        "title": "",
-        "description": ""
-      },
-      {
-        "img": "",
-        "title": "",
-        "description": ""
-      }
-    ]
+    "modulo2Content": "Validación en JS: https://uniwebsidad.com/libros/javascript/capitulo-7/validacion <br>Herramientas para el desarrrolador: https://blog.makeitreal.camp/herramientas-de-desarrollador-o-developer-tools/ <br> https://www.emezeta.com/articulos/10-trucos-para-google-chrome-developer-tools"
   }
 }

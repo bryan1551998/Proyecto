@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
 
@@ -46,6 +46,10 @@
             <li class="nav-item">
                 <a id="textoLogin" class="nav-link" href="./login.html">INICIAR SESION</a>
             </li>
+
+            <img onclick="localStorage.setItem('idioma', 'es'); idioma();" src="./img/spain.png" height="40px" style="cursor: pointer;">
+            
+            <img onclick="localStorage.setItem('idioma', 'en'); idioma();" src="./img/united-kingdom.png" height="40px" style="cursor: pointer; margin-left: 10px;">
 
         </ul>
 
@@ -117,7 +121,8 @@
 
     <!-- Foor content -->
     <div class=" fixed-bottom" id="footer">
-        <p id="textoFooter" style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados 2022
+        <p id="textoFooter" style="color: rgb(231, 231, 231);" class="text-center p-1">Todos los derechos reservados
+            2022
             @Copyright
         </p>
     </div>
@@ -130,6 +135,7 @@
         crossorigin="anonymous"></script>
 
     <script src="./js/preferedLanguage.js"></script>
+    <script>idioma()</script>
 </body>
 
 </html>

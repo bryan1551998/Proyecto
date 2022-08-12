@@ -1,22 +1,33 @@
 {
-  "home": "",
-  "register": "",
-  "login": "",
-  "slider": [
-    {
-      "img": "https://th.bing.com/th/id/R.ce3a82da9ea684f83a0593fa8b263b68?rik=eq2p5sSRjjPK9A&riu=http%3a%2f%2fadproyecto.weebly.com%2fuploads%2f2%2f7%2f9%2f2%2f27929947%2f8103663_orig.jpg&ehk=pIoT1RBpP7sjc0VlMBWkHbN70Tj8GjFINnP6aGrzfVg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1",
-      "title": "",
-      "description": ""
-    },
-    {
-      "img": "",
-      "title": "",
-      "description": ""
-    },
-    {
-      "img": "",
-      "title": "",
-      "description": ""
-    }
-  ]
+  "header": {
+    "home": "Home",
+    "register": "Register",
+    "login": "Login",
+    "logoff": "Logout"
+  },
+  "footer": "All rights reserved 2022 @ Copyright",
+  "registerPage": {
+    "title": "New Account",
+    "name": "Name",
+    "surname": "Surname",
+    "pass": "Password",
+    "email": "E-mail",
+    "birth": "Birth Date",
+    "dni": "DNI",
+    "tel": "Phone Number",
+    "botonSubmit": "Register"
+  },
+  "loginPage": {
+    "title": "Log into your Account",
+    "email": "E-mail",
+    "pass": "Password",
+    "btnSubmit": "Login"
+  },
+  "indicePage": {
+    "title": "Index",
+    "modulo1Title": "Module 1",
+    "modulo1Content": "Ejercicio - Ejercicio Form Bootstrap.png\nLibro - Doc Bootstrap 4.pdf\nLibro - Tutorial bootstrap 4.pdf\nPresentación - PPT Bootstrap.pdf\nSolución - Solución Form bootstrap.zip",
+    "modulo2Title": "Module 2",
+    "modulo2Content": "Validación en JS: https://uniwebsidad.com/libros/javascript/capitulo-7/validacion \nHerramientas para el desarrrolador: https://blog.makeitreal.camp/herramientas-de-desarrollador-o-developer-tools/ \n https://www.emezeta.com/articulos/10-trucos-para-google-chrome-developer-tools"
+  }
 }
