@@ -144,7 +144,7 @@ function cerrarSesion() {
     localStorage.removeItem("fechaNacimiento")
     localStorage.removeItem("dni")
     localStorage.removeItem("telf")
-    location.href = './login.html'
+    location.href = './registro.html'
 }
 
 function limpiarForm() {
